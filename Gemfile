@@ -24,6 +24,9 @@ gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 # Add figaro for securely managing credentials
 gem 'figaro'
 
+# Add letter opener for handling development emails
+gem 'letter_opener', group: :development
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
 
